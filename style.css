@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.directory {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.directory a {
+    text-decoration: none;
+    color: rgb(115, 115, 136);
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 40px;
+    font-family: sans-serif;
+}
+
+p{
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+  }
